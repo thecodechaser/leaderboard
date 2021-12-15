@@ -13,7 +13,7 @@ async function postData(user, score) {
   return json;
 }
 
-export default function recieveData() {
+export default () => {
   const msg = document.querySelector('.msg');
   const form = document.querySelector('.add-form');
   form.addEventListener('submit', (e) => {

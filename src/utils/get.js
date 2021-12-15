@@ -4,7 +4,7 @@ async function getData() {
   return json;
 }
 
-export default function renderData() {
+export default () => {
   const ul = document.querySelector('.score-list');
   getData().then((json) => {
     const array = json.result;
