@@ -12,4 +12,4 @@ export default () => {
       ul.innerHTML += `<li class="score">${array[i].user} ${array[i].score}</li>`;
     }
   });
-}
+};

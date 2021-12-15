@@ -24,4 +24,4 @@ export default () => {
       msg.innerHTML = json.result;
     });
   });
-}
+};
