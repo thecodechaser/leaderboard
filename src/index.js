@@ -9,6 +9,8 @@ refreshBtn.addEventListener('click', () => {
   while (ul.firstChild) {
     ul.removeChild(ul.firstChild);
   }
+  const msg = document.querySelector('.msg');
+  msg.innerHTML = '';
   renderData();
 });
 

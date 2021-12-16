@@ -1,5 +1,5 @@
 async function postData(user, score) {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/rO378WlzTyLm1i3wuLMC/scores/', {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/qIlAXG3nOzXiqLsHFxKN/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user,
@@ -22,6 +22,7 @@ export default () => {
     const score = form.elements[1].value;
     postData(user, score).then((json) => {
       msg.innerHTML = json.result;
+      form.reset();
     });
   });
 };
