@@ -14,7 +14,7 @@
 
 ![screenshot](./src/images/Screenshot2.png)
 
-Porject's features are added into seperate branch to keep main branch safe.
+Project's features are added into seperate branch to keep main branch safe.
 
 ## Built With
 
