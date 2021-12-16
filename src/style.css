@@ -96,6 +96,11 @@ input {
   align-self: flex-end;
 }
 
+.msg {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
 /* desktop styles */
 
 @media screen and (min-width: 1024px) {
