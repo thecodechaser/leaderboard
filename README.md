@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> Leaderboard is project that shows list of player with name and score, Users can add their score using add score scection. Data is send and retrived from APIs.
+> Leaderboard is project based on APIs, that shows list of player with name and score, Users can add their score using add score scection. Data is send and retrived from APIs.
 
 ## Screenshots:
 
@@ -14,7 +14,7 @@
 
 ![screenshot](./src/images/Screenshot2.png)
 
-Porject's features are added into seperate branch to keep main branch safe.
+Project's features are added into seperate branch to keep main branch safe.
 
 ## Built With
 
