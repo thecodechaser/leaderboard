@@ -5,6 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #3dbae1, #2acbcb);
 }
 
 main {
@@ -12,21 +13,33 @@ main {
   margin: 30px 20px 0 20px;
   box-shadow: 5px 5px #dfe1e6;
   padding: 20px;
+  background-color: #f5f5f5;
 }
 
 button {
-  background-color: white;
+  background-color: #36b37f;
   cursor: pointer;
-  box-shadow: 2px 2px black;
-  font-weight: bold;
-  height: 30px;
+  height: 35px;
+  width: 75px;
   font-size: 14px;
-  border: 2px solid black;
+  border: 2px solid #36b37f;
+  color: #fff;
+  font-weight: 100;
+  border-radius: 5px;
 }
 
 input {
   padding: 5px 10px;
-  border: 3px solid black;
+}
+
+input:hover {
+  border: 3px solid #36b37f;
+  outline: none;
+}
+
+h1,
+h2 {
+  color: #3abb83;
 }
 
 /* main-section */
@@ -53,7 +66,7 @@ input {
 }
 
 .recent-score-d {
-  border: 3px solid black;
+  border: 3px solid #36b37f;
 }
 
 .score-list {
@@ -62,16 +75,15 @@ input {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  gap: 10px;
 }
 
 .score {
   padding: 5px 10px;
   font-weight: bold;
-}
-
-.score:nth-child(odd) {
-  background-color: rgba(128, 128, 128, 0.288);
+  border: 1px solid rgba(128, 128, 128, 0.288);
+  border-left: 5px solid #36b37f;
+  margin: 8px 10px;
+  border-radius: 5px;
 }
 
 /* add-score-section */
@@ -99,6 +111,7 @@ input {
 .msg {
   margin-top: 30px;
   font-weight: bold;
+  color: #36b37f;
 }
 
 /* desktop styles */
@@ -109,7 +122,7 @@ input {
   }
 
   .refresh-btn {
-    margin-left: 150px;
+    margin-left: 140px;
   }
 }
 
