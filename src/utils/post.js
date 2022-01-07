@@ -1,5 +1,5 @@
 async function postData(user, score) {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/qIlAXG3nOzXiqLsHFxKN/scores/', {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Ui5Q7sDbaqvLeD6YcxeL/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user,
